@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // Allow overriding the backend URL via environment variable (useful for dev/prod)
-const BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:4000/api";
+const BASE_URL = process.env.REACT_APP_API_URL || "https://bcm-backend-95rr.onrender.com/api";
 
 // ✅ Get token from local storage (support both keys if present)
 const getToken = () => {
